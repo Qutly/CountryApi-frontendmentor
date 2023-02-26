@@ -1,0 +1,13 @@
+.content {
+  padding: 4rem;
+}
+
+.trans {
+  transition: 3s;
+}
+
+@media only screen and (max-width: 425px) {
+  .content {
+    padding: 2rem;
+  }
+}

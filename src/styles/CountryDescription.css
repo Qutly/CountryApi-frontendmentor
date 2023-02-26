@@ -1,0 +1,158 @@
+.container {
+    padding: 4rem;
+}
+
+.go-back {
+    display: flex;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 14px;
+    justify-content: center;
+    text-align: center;
+    padding-right: 7px;
+}
+
+.flex-2 {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);  
+    grid-gap: 7rem;
+}
+
+.description-2 {
+    justify-content: center;
+    align-self: center;
+}
+
+.flag-2 {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.grid-1 {
+    max-height: 400px;
+}
+
+.button-go-back {
+    border: none;
+    border-radius: 5px;
+    padding-left: 1.75rem;
+    padding-right: 1.75rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    cursor: pointer;
+}
+
+.borders {
+    border: none;
+    border-radius: 4px;
+    padding-left: 1.3rem;
+    padding-right: 1.3rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.border-style {
+   display: inline-flex;
+   flex-wrap: wrap;
+   align-self: center;
+   padding-top: 2rem;
+}
+
+.border-buttons {
+    padding-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.not-available-data {
+    padding-top: 1px;
+    color: hsl(210deg 8% 50%);
+}
+
+.borders-label {
+    padding-right: 1rem;
+}
+
+.description-container {
+    padding-bottom: 1rem;
+}
+
+.divide-data {
+    padding-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width:425px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;    
+    }
+    .flex-2 {
+        display: block;
+    }
+    .divide-data {
+        display: block;
+    }
+    .first-half {
+        padding-bottom: 2rem;
+        padding-top: .75rem;
+    }
+    .description-container {
+        padding-top: 1rem;
+    }
+}
+@media only screen and (max-width:1024px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;    
+    }
+    .flex-2 {
+        display: block;
+    }
+    .flag-2 {
+        width: 75%;
+        height: 75%;
+    }
+    .divide-data {
+        display: block;
+    }
+    .first-half {
+        padding-bottom: 2rem;
+        padding-top: .75rem;
+    }
+    .description-container {
+        padding-top: 2rem;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        padding: 2rem;    
+    }
+    .flex-2 {
+        display: block;
+    }
+    .divide-data {
+        display: block;
+    }
+    .first-half {
+        padding-bottom: 2rem;
+        padding-top: .75rem;
+    }
+    .description-container {
+        padding-top: 1rem;
+    }
+}
+
